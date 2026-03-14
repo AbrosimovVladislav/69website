@@ -1,31 +1,19 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin", "cyrillic"],
-});
 
 export const metadata: Metadata = {
   title: "69hockey",
-  description: "Международные хоккейные турниры и кэмпы",
+  description: "69hockey",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="ru">
-      <body className={`${inter.variable} bg-page text-white antialiased flex flex-col min-h-screen`}>
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

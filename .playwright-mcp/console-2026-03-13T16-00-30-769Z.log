@@ -1,0 +1,19 @@
+[    1982ms] [WARNING] Statsig is not ready to log exposures, will retry in 1 seconds @ https://www.figma.com/webpack-artifacts/assets/vendor-core-c1d527f9b495c128.min.js.br:53
+[    3946ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://static.figma.com/fullscreen/b76162e144d1cea981c7927daa8501b7f3f696f6/fullscreen-wasm/compiled_wasm.js.br:1
+[    3953ms] [WARNING] Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently @ https://static.figma.com/fullscreen/b76162e144d1cea981c7927daa8501b7f3f696f6/fullscreen-wasm/compiled_wasm.js.br:1
+[    4057ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://www.figma.com/api/mobile_app_push/zhtYkkEiLLt7tDYFE2EYMa:0
+[    4069ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://www.figma.com/design/zhtYkkEiLLt7tDYFE2EYMa/Untitled?node-id=1-106:0
+[    4080ms] E: XHR for "/api/mobile_app_push/zhtYkkEiLLt7tDYFE2EYMa" failed with status 401
+    at C (https://www.figma.com/webpack-artifacts/assets/8206-b854f180047b140c.min.js.br:1085:13965)
+    at async C.r [as post] (https://www.figma.com/webpack-artifacts/assets/8206-b854f180047b140c.min.js.br:1085:14595)
+[    4482ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://www.figma.com/api/folders/507105487:0
+[    4540ms] E: XHR for "/api/folders/507105487" failed with status 401
+    at C (https://www.figma.com/webpack-artifacts/assets/8206-b854f180047b140c.min.js.br:1085:13965)
+    at async Object.k [as get] (https://www.figma.com/webpack-artifacts/assets/8206-b854f180047b140c.min.js.br:1085:14348)
+    at async https://www.figma.com/webpack-artifacts/assets/8206-b854f180047b140c.min.js.br:882:146214
+    at async h.validate (https://www.figma.com/webpack-artifacts/assets/figma_app_beta-250ece0b6d6c8521.min.js.br:376:1520642)
+    at async h.fetchObject (https://www.figma.com/webpack-artifacts/assets/8206-b854f180047b140c.min.js.br:356:136035)
+    at async f (https://www.figma.com/webpack-artifacts/assets/8206-b854f180047b140c.min.js.br:356:116337)
+[    4629ms] [WARNING] [GSI_LOGGER]: Your client application uses one of the Google One Tap prompt UI status methods that may stop functioning when FedCM becomes mandatory. Refer to the migration guide to update your code accordingly and opt-in to FedCM to test your changes. Learn more: https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#display_moment and https://developers.google.com/identity/gsi/web/guides/fedcm-migration?s=dc#skipped_moment @ https://www.figma.com/webpack-artifacts/assets/vendor-core-c1d527f9b495c128.min.js.br:53
+[    4737ms] [ERROR] Not signed in with the identity provider. @ https://www.figma.com/design/zhtYkkEiLLt7tDYFE2EYMa/Untitled?node-id=1-106:0
+[   18917ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://www.figma.com/webpack-artifacts/assets/vendor-core-c1d527f9b495c128.min.js.br:53
